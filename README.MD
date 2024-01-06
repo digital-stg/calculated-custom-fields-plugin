@@ -76,7 +76,7 @@ English and french version ready. Strings localized and plugin ready for transla
 ## Appearance
 
 Inputs were left as raw as possible according [WordPress rules](https://learn.wordpress.org/lesson-plan/choosing-and-installing-themes/#what-are-the-differences-between-plugins-themes) on this subject.
-*	JQuery UI and other CSS files are located in the `public/css/jquery-ui.css` folder.
+*	JQuery UI and other CSS files are located in the `public/css/` folder.
 *	Public HTML files are located in the `/public/partials/display_options/` folder.
 
 
