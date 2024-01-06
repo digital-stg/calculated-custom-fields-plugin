@@ -1,0 +1,49 @@
+/* Image Swap */
+
+/*** hide radio for img swap ***/
+.cpm_imgswap_div .ui-checkboxradio-label {
+  display: none;
+}
+
+.cpm_img_swap {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+}
+
+.box_img {display: flex; text-align: center;}
+
+.cpm_img_swap img {
+  cursor: pointer;
+  border: 1px solid #c5c5c5;
+  background-color: transparent;
+  width: 100px!important;
+  height: 100px!important;
+  border-radius: 3px;
+  object-fit: contain;
+  padding: 0px 1px 0px 1px;
+  margin: 0 2px 0 2px;
+  box-shadow: 1px 1px 3px #c5c5c5!important;
+}
+
+/*See js public too */
+.cpm_img_swap img:hover {
+  border: 1px solid #003eff!important;
+  box-shadow: 0 0 3px 1px #5E9ED6!important;
+}
+
+.cpm_img_swap img:active {
+  outline: 1px solid #003eff!important;
+  box-shadow: 0 0 3px 1px #5E9ED6!important;
+
+}
+
+.wpcb_img_focus {
+  border: 1px solid #003eff!important;
+  box-shadow: 0 0 3px 1px #5E9ED6!important;
+  outline: none!important;
+}
+

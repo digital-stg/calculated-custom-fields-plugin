@@ -1,0 +1,10 @@
+{ "_comment": [
+    "It is the main composer.json that defines the project requirements.",
+    "This file describes the project's dependencies and may contain other metadata as well.",
+    "https://getcomposer.org/schema.json"
+],
+    "require": {
+        "symfony/expression-language": "^5.4"
+    }
+}
+

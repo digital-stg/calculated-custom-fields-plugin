@@ -1,0 +1,1554 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"calculated custom fields\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"POT-Creation-Date: "
+"2023-04-09 20:50+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: NAS "
+"<contact@new-altitude-"
+"solutions.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; "
+"charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; "
+"plural=n != 1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: __;"
+"_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit "
+"3.2.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-calculated-custom-fields-admin.php:144
+msgid ""
+"Calculated Custom Fields"
+msgstr ""
+
+#: admin/class-calculated-custom-fields-admin.php:218
+#: admin/class-calculated-custom-fields-admin.php:270
+msgid "Free option"
+msgstr ""
+
+#: admin/class-calculated-custom-fields-admin.php:221
+msgid "Option cost : "
+msgstr ""
+
+#: admin/class-calculated-custom-fields-admin.php:224
+#: admin/class-calculated-custom-fields-admin.php:272
+msgid "Customize"
+msgstr ""
+
+#: admin/class-calculated-custom-fields-admin.php:228
+#: admin/class-calculated-custom-fields-admin.php:274
+msgid "Total price"
+msgstr ""
+
+#: admin/class-calculated-custom-fields-admin.php:231
+#: admin/class-calculated-custom-fields-admin.php:275
+msgid "Total cost incl."
+msgstr ""
+
+#: admin/class-calculated-custom-fields-admin.php:234
+#: admin/class-calculated-custom-fields-admin.php:276
+msgid "Total option"
+msgstr ""
+
+#: admin/class-calculated-custom-fields-admin.php:237
+#: admin/class-calculated-custom-fields-admin.php:277
+#: public/class-calculated-custom-fields-public.php:306
+msgid "Total cost"
+msgstr ""
+
+#: admin/class-calculated-custom-fields-admin.php:271
+#: admin/partials/options-admin-tabs/admin_tab_template.php:153
+#: admin/partials/options-admin-tabs/admin_tab_template.php:202
+#: admin/partials/options-admin-tabs/admin_tab_template.php:232
+#: admin/partials/options-admin-tabs/admin_tab_template.php:289
+#: admin/partials/options-admin-tabs/admin_tab_template.php:322
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1207
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1360
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1459
+msgid "Option cost :"
+msgstr ""
+
+#: admin/partials/calculated-custom-fields-admin-display.php:26
+msgid ""
+"Displayed above option "
+"input"
+msgstr ""
+
+#: admin/partials/calculated-custom-fields-admin-display.php:27
+msgid ""
+"Displayed under option "
+"name. Leave blank if you "
+"dont need it."
+msgstr ""
+
+#: admin/partials/calculated-custom-fields-admin-display.php:28
+msgid ""
+"Displayed beside option "
+"name. Leave blank if you "
+"dont need it."
+msgstr ""
+
+#: admin/partials/calculated-custom-fields-admin-display.php:29
+msgid ""
+"Use $user_value with "
+"numbers and basic "
+"mathematic operators : + "
+"- / * ( ) . \n"
+"      $user_value is "
+"required and refers to "
+"the value given by the "
+"user on the product "
+"page.\n"
+"      Use also "
+"$second_user_value if you "
+"choose to add another "
+"input."
+msgstr ""
+
+#: admin/partials/calculated-custom-fields-admin-display.php:32
+msgid ""
+"By default, upload max "
+"size depends on the "
+"settings of your web "
+"hosting provider. You can "
+"also restrict it here by "
+"giving a value in "
+"Megabytes (Default PHP "
+"upload max size value is "
+"usually around 2M)."
+msgstr ""
+
+#: admin/partials/calculated-custom-fields-admin-display.php:34
+msgid ""
+"If option output is "
+"enabled, this text will "
+"appear after user "
+"interaction when the "
+"option is free."
+msgstr ""
+
+#: admin/partials/calculated-custom-fields-admin-display.php:35
+msgid ""
+"If option output is "
+"enabled, this text will "
+"appear after user "
+"interaction just before "
+"the custom option price."
+msgstr ""
+
+#: admin/partials/calculated-custom-fields-admin-display.php:37
+msgid ""
+"Product page & cart : if "
+"enabled, option cost will "
+"be correlated with the "
+"product quantity. If "
+"disabled, option cost "
+"will be added only once "
+"to the cart total."
+msgstr ""
+
+#: admin/partials/calculated-custom-fields-admin-display.php:39
+msgid ""
+"Last product accordion "
+"header text."
+msgstr ""
+
+#: admin/partials/calculated-custom-fields-admin-display.php:41
+msgid "Cart total text."
+msgstr ""
+
+#: admin/partials/calculated-custom-fields-admin-display.php:43
+msgid ""
+"if an option has been "
+"set, the add to cart btn "
+"of shop page becomes a "
+"link to the product with "
+"a custom text."
+msgstr ""
+
+#: admin/partials/calculated-custom-fields-admin-display.php:53
+msgid "Field 1"
+msgstr ""
+
+#: admin/partials/calculated-custom-fields-admin-display.php:58
+msgid "Field 2"
+msgstr ""
+
+#: admin/partials/calculated-custom-fields-admin-display.php:61
+msgid "Field 3"
+msgstr ""
+
+#: admin/partials/calculated-custom-fields-admin-display.php:62
+msgid "Field 4"
+msgstr ""
+
+#: admin/partials/calculated-custom-fields-admin-display.php:63
+msgid "Field 5"
+msgstr ""
+
+#: admin/partials/calculated-custom-fields-admin-display.php:64
+msgid "Field 6"
+msgstr ""
+
+#: admin/partials/calculated-custom-fields-admin-display.php:65
+msgid "Field 7"
+msgstr ""
+
+#: admin/partials/calculated-custom-fields-admin-display.php:66
+msgid "Settings"
+msgstr ""
+
+#: admin/partials/calculated-custom-fields-admin-display.php:71
+#: admin/partials/calculated-custom-fields-admin-display.php:80
+msgid ""
+"Product regular price has "
+"to be set."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:40
+#: admin/partials/options-admin-tabs/fake-tab.php:20
+msgid "View Product"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:43
+msgid ""
+"Text input displayed."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:45
+msgid ""
+"Select dropdown displayed."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:47
+msgid ""
+"Checkbox input displayed."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:49
+msgid ""
+"Text area input displayed."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:51
+msgid ""
+"Radio input displayed."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:53
+msgid ""
+"Number input displayed."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:55
+msgid ""
+"Image swap displayed."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:57
+msgid ""
+"Email input displayed."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:59
+msgid ""
+"Button swap displayed."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:61
+msgid ""
+"Color input displayed."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:63
+msgid ""
+"Calculation input "
+"displayed."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:65
+msgid "Url input displayed."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:67
+msgid ""
+"Upload input displayed."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:69
+msgid ""
+"Phone input displayed."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:71
+msgid ""
+"No input currently "
+"displayed."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:77
+msgid "Option label"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:80
+#: admin/partials/options-admin-tabs/fake-tab.php:30
+msgid ""
+"Write your option label"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:87
+msgid "Option type"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:90
+#: admin/partials/options-admin-tabs/fake-tab.php:42
+msgid ""
+"Select an option type"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:91
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1428
+msgid "Text"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:92
+msgid "Select dropdown"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:93
+msgid "Checkboxes"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:94
+msgid "Textarea"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:95
+msgid "Radio buttons"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:96
+msgid "Number"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:97
+msgid "Images"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:98
+msgid "Email"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:99
+msgid "Buttons"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:100
+msgid "Color"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:101
+msgid "Number calculation"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:102
+msgid "Url"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:103
+msgid "Upload ajax"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:104
+msgid "Phone"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:111
+#: admin/partials/options-admin-tabs/fake-tab.php:52
+msgid ""
+"Option description : "
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:113
+#: admin/partials/options-admin-tabs/fake-tab.php:54
+msgid "Input description"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:119
+#: admin/partials/options-admin-tabs/fake-tab.php:62
+msgid "Option help-tip : "
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:121
+#: admin/partials/options-admin-tabs/fake-tab.php:64
+msgid "Input help-tip"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:127
+msgid ""
+"Option placeholder : "
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:129
+msgid "Input placeholder"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:134
+msgid "Option required :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:135
+msgid ""
+"Enable if option is "
+"required."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:141
+msgid "Hide option output :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:142
+msgid ""
+"Enable to hide option "
+"cost output."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:156
+msgid "Text option cost"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:165
+msgid "Text min length :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:177
+msgid "Text max length :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:189
+msgid "Only letters :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:190
+msgid ""
+"Enable to allow only "
+"letters and disallowed "
+"numbers."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:205
+msgid "Textarea option cost"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:214
+msgid ""
+"Textarea max length : "
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:235
+msgid "Url link option cost"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:244
+msgid "Url min length : "
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:256
+msgid "Url max length : "
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:268
+msgid "Url pattern."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:292
+msgid "Email option cost"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:302
+msgid "Email max length : "
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:325
+msgid "Number option cost"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:335
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1252
+msgid "Number min value: "
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:346
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1263
+msgid "Number max value : "
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:358
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1275
+msgid "Number step value : "
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:378
+#: admin/partials/options-admin-tabs/admin_tab_template.php:529
+#: admin/partials/options-admin-tabs/admin_tab_template.php:728
+#: admin/partials/options-admin-tabs/admin_tab_template.php:871
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1053
+msgid "Option label 1 :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:381
+msgid ""
+"Checkbox option label 1"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:387
+#: admin/partials/options-admin-tabs/admin_tab_template.php:537
+#: admin/partials/options-admin-tabs/admin_tab_template.php:737
+#: admin/partials/options-admin-tabs/admin_tab_template.php:882
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1062
+msgid "Option cost 1 :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:390
+msgid ""
+"Checkbox option cost 1"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:402
+#: admin/partials/options-admin-tabs/admin_tab_template.php:441
+#: admin/partials/options-admin-tabs/admin_tab_template.php:477
+msgid "Add new checkbox"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:413
+msgid "Remove checkbox 2"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:419
+#: admin/partials/options-admin-tabs/admin_tab_template.php:549
+#: admin/partials/options-admin-tabs/admin_tab_template.php:749
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1074
+msgid "Option label 2 :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:422
+msgid ""
+"Checkbox option label 2"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:428
+#: admin/partials/options-admin-tabs/admin_tab_template.php:557
+#: admin/partials/options-admin-tabs/admin_tab_template.php:758
+#: admin/partials/options-admin-tabs/admin_tab_template.php:917
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1083
+msgid "Option cost 2 :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:431
+msgid ""
+"Checkbox option cost 2"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:449
+msgid "Remove checkbox 3"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:455
+#: admin/partials/options-admin-tabs/admin_tab_template.php:590
+#: admin/partials/options-admin-tabs/admin_tab_template.php:790
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1096
+msgid "Option label 3 :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:458
+msgid ""
+"Checkbox option label 3"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:464
+#: admin/partials/options-admin-tabs/admin_tab_template.php:599
+#: admin/partials/options-admin-tabs/admin_tab_template.php:799
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1105
+msgid "Option cost 3 :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:467
+msgid ""
+"Checkbox option cost 3"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:485
+msgid "Remove checkbox 4"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:490
+#: admin/partials/options-admin-tabs/admin_tab_template.php:626
+#: admin/partials/options-admin-tabs/admin_tab_template.php:823
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1009
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1121
+msgid "Option label 4 :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:493
+msgid ""
+"Checkbox option label 4"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:499
+#: admin/partials/options-admin-tabs/admin_tab_template.php:634
+#: admin/partials/options-admin-tabs/admin_tab_template.php:831
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1017
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1130
+msgid "Option cost 4 :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:502
+msgid ""
+"Checkbox option cost 4"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:522
+msgid "Default text :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:524
+msgid ""
+"Write your select default "
+"text"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:532
+msgid ""
+"Select option label 1"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:540
+msgid "Select option cost 1"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:552
+msgid ""
+"Select option label 2"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:560
+msgid "Select option cost 2"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:573
+#: admin/partials/options-admin-tabs/admin_tab_template.php:613
+#: admin/partials/options-admin-tabs/admin_tab_template.php:646
+#: admin/partials/options-admin-tabs/admin_tab_template.php:681
+msgid "Add sub option"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:585
+msgid "Remove select 3"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:593
+msgid ""
+"Select option label 3"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:602
+msgid "Select option cost 3"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:621
+msgid "Remove select 4"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:629
+msgid ""
+"Select option label 4"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:637
+msgid "Select option cost 4"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:654
+msgid "Remove select 5"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:660
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1148
+msgid "Option label 5 :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:663
+msgid ""
+"Select option label 5"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:669
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1157
+msgid "Option cost 5 :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:672
+msgid "Select option cost 5"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:688
+msgid "Remove select 6"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:694
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1176
+msgid "Option label 6 :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:697
+msgid ""
+"Select option label 6"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:703
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1185
+msgid "Option cost 6 :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:706
+msgid "Select option cost 6"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:731
+msgid "Radio option label 1"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:740
+msgid "Radio option cost 1"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:752
+msgid "Radio option label 2"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:761
+msgid "Radio option cost 2"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:774
+#: admin/partials/options-admin-tabs/admin_tab_template.php:811
+msgid "Add new radio"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:785
+msgid "Remove radio 3"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:793
+msgid "Radio option label 3"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:802
+msgid "Radio option cost 3"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:818
+msgid "Remove radio "
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:826
+msgid "Radio option label 4"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:834
+msgid "Radio option cost 4"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:857
+#: admin/partials/options-admin-tabs/admin_tab_template.php:862
+#: admin/partials/options-admin-tabs/admin_tab_template.php:897
+#: admin/partials/options-admin-tabs/admin_tab_template.php:901
+#: admin/partials/options-admin-tabs/admin_tab_template.php:948
+#: admin/partials/options-admin-tabs/admin_tab_template.php:952
+#: admin/partials/options-admin-tabs/admin_tab_template.php:998
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1002
+msgid "Remove image"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:861
+#: admin/partials/options-admin-tabs/admin_tab_template.php:900
+#: admin/partials/options-admin-tabs/admin_tab_template.php:951
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1001
+msgid "Upload image"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:874
+msgid "Image option label 1"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:885
+msgid "Image option cost 1"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:908
+msgid "Option label 2"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:911
+msgid "Image option label 2"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:920
+msgid ""
+"Image option cost 2 :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:932
+#: admin/partials/options-admin-tabs/admin_tab_template.php:982
+msgid "Add new image"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:942
+msgid "Remove Image 3"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:959
+msgid "Option label 3"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:962
+msgid "Image option label 3"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:968
+msgid "Option cost 3"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:970
+msgid "Image option cost 3"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:993
+msgid "Remove Image 4"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1012
+msgid "Image option label 4"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1020
+msgid "Image option cost 4"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1039
+msgid "Buttons number :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1041
+msgid ""
+"Number of displayed "
+"buttons"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1056
+msgid ""
+"Button option label 1"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1065
+msgid "Button option cost 1"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1077
+msgid ""
+"Button option label 2"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1086
+msgid "Button option cost 2"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1099
+msgid ""
+"Button option label 3"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1108
+msgid "Button option cost 3"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1124
+msgid ""
+"Button option label 4"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1133
+msgid "Button option cost 4"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1151
+msgid ""
+"Button option label 5"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1160
+msgid "Button option cost 5"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1179
+msgid ""
+"Button option label 6"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1188
+msgid "Button option cost 6"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1210
+msgid "Color option cost"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1228
+msgid "Calcul formula"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1236
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1304
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1413
+#: admin/partials/options-admin-tabs/fake-tab.php:72
+#: admin/partials/options-admin-tabs/settings_tab.php:51
+msgid "Information :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1236
+msgid ""
+"is required in the calcul "
+"formula and refers to the "
+"value gived by the "
+"customer on the product "
+"page."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1242
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1309
+msgid "Example :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1244
+msgid ""
+"In this case, if user "
+"write 100, 20 will be "
+"dynamically added to "
+"price ((100 * 0.1) + "
+"10). \n"
+"                 If "
+"product initial regular "
+"price was 30$, his new "
+"price is 50$."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1265
+msgid "no limit"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1289
+msgid "Add new calcul input"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1300
+msgid "Remove second input"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1304
+msgid ""
+"is now required in the "
+"calcul formula."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1311
+msgid ""
+"In this case, if user "
+"write 3 and 4, 22 will be "
+"dynamically added to "
+"price ((3 * 4) + 10).\n"
+"                    If "
+"product initial regular "
+"price was 30$, his new "
+"price is 52$."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1319
+msgid "Input label 2 :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1327
+msgid ""
+"Input description 2 :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1330
+msgid ""
+"Second input description"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1335
+msgid ""
+"Description helptip 2 :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1337
+msgid "Second input helptip"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1342
+msgid ""
+"Input placeholder 2 :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1344
+msgid ""
+"Second input placeholder"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1362
+msgid "Upload option cost"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1372
+msgid "Upload max size : "
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1387
+msgid ""
+"Set file types restriction"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1398
+msgid "Close"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1404
+msgid ""
+"Toggle all mimes types"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1415
+msgid ""
+"Check / uncheck to "
+"allow / disallow "
+"corresponding file type "
+"and restrict upload. By "
+"default, these 100 file "
+"mime types are "
+"disallowed. At least one "
+"type allowed is required."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1426
+msgid "Image"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1427
+msgid "Video"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1429
+msgid "Audio"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1430
+msgid "Application"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1437
+msgid " : "
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1461
+msgid "Phone option cost"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1472
+msgid "Phone min length: "
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1483
+msgid "Phone max length : "
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1512
+msgid ""
+"Select default country"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1516
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1526
+msgid "Dialling code:"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1546
+msgid "Save and display"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:1553
+msgid "Remove"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/fake-tab.php:22
+msgid ""
+"Available only in pro "
+"version"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/fake-tab.php:27
+msgid "Option label :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/fake-tab.php:39
+msgid "Option type :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/fake-tab.php:72
+msgid ""
+"Check our <a href=\\"
+"\"https://new-altitude-"
+"solutions.com\\"
+"\">official website</a> "
+"for pro version."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/settings_tab.php:6
+msgid "General settings"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/settings_tab.php:17
+msgid "Calculation type"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/settings_tab.php:22
+msgid "Quantity related :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/settings_tab.php:23
+msgid ""
+"Option costs fluctuate "
+"with quantity."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/settings_tab.php:29
+msgid "Enabled :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/settings_tab.php:30
+msgid ""
+"Option cost are added to "
+"the product price and are "
+"quantity related."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/settings_tab.php:33
+msgid ""
+"1 - Cast page product "
+"accordion last header "
+"default title : \"Total "
+"price\""
+msgstr ""
+
+#: admin/partials/options-admin-tabs/settings_tab.php:36
+msgid ""
+"2 - New cart page summary "
+"default text : \"Total "
+"cost incl\""
+msgstr ""
+
+#: admin/partials/options-admin-tabs/settings_tab.php:40
+msgid "Disabled :"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/settings_tab.php:41
+msgid ""
+"Option cost are added to "
+"the total but are not "
+"quantity related."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/settings_tab.php:44
+msgid ""
+"1 - Cast page product "
+"accordion last header "
+"default title : \"Total "
+"option\""
+msgstr ""
+
+#: admin/partials/options-admin-tabs/settings_tab.php:47
+msgid ""
+"2 - New cart page summary "
+"default text : \"Total "
+"cost\""
+msgstr ""
+
+#: admin/partials/options-admin-tabs/settings_tab.php:52
+msgid ""
+"You can modify the text "
+"of these 2 headers in the "
+"Cart page section below."
+msgstr ""
+
+#: admin/partials/options-admin-tabs/settings_tab.php:57
+msgid "Cart page"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/settings_tab.php:61
+#: admin/partials/options-admin-tabs/settings_tab.php:77
+msgid ""
+"Accordion header text : "
+msgstr ""
+
+#: admin/partials/options-admin-tabs/settings_tab.php:69
+#: admin/partials/options-admin-tabs/settings_tab.php:84
+msgid "Cart summary text : "
+msgstr ""
+
+#: admin/partials/options-admin-tabs/settings_tab.php:92
+msgid "Product page"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/settings_tab.php:96
+msgid "Free option text : "
+msgstr ""
+
+#: admin/partials/options-admin-tabs/settings_tab.php:105
+msgid "Cost option text : "
+msgstr ""
+
+#: admin/partials/options-admin-tabs/settings_tab.php:112
+msgid "Shop page"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/settings_tab.php:116
+msgid ""
+"Add cart button text : "
+msgstr ""
+
+#: admin/partials/options-admin-tabs/settings_tab.php:131
+msgid "Save settings"
+msgstr ""
+
+#: admin/partials/options-admin-tabs/settings_tab.php:137
+msgid "Reset settings"
+msgstr ""
+
+#: includes/class-calculated-custom-fields-activator.php:46
+msgid ""
+"WooCommerce is required"
+msgstr ""
+
+#: includes/class-calculated-custom-fields-activator.php:46
+msgid ""
+"CPM Plugin activation "
+"cancelled"
+msgstr ""
+
+#: includes/class-calculated-custom-fields-activator.php:46
+msgid "Go back to plugins"
+msgstr ""
+
+#: public/cart/cart_product_options_template.php:135
+#: public/cart/cart_product_options_template.php:179
+#: public/cart/cart_product_options_template.php:214
+#: public/cart/cart_product_options_template.php:241
+#: public/cart/cart_product_options_template.php:268
+#: public/cart/cart_product_options_template.php:294
+#: public/cart/cart_product_options_template.php:320
+#: public/cart/cart_product_options_template.php:340
+#: public/cart/cart_product_options_template.php:363
+#: public/cart/cart_product_options_template.php:385
+#: public/cart/cart_product_options_template.php:413
+#: public/cart/cart_product_options_template.php:434
+#: public/cart/cart_product_options_template.php:459
+#: public/cart/cart_product_options_template.php:480
+#: public/cart/cart_product_options_template.php:497
+#: public/cart/cart_product_options_template.php:516
+#: public/cart/cart_product_options_template.php:535
+#: public/cart/cart_product_options_template.php:556
+#: public/cart/cart_product_options_template.php:582
+#: public/cart/cart_product_options_template.php:602
+#: public/cart/cart_product_options_template.php:620
+#: public/cart/cart_product_options_template.php:638
+#: public/cart/cart_product_options_template.php:661
+#: public/cart/cart_product_options_template.php:681
+#: public/cart/cart_product_options_template.php:700
+#: public/cart/cart_product_options_template.php:718
+#: public/cart/cart_product_options_template.php:736
+#: public/cart/cart_product_options_template.php:753
+#: public/cart/cart_product_options_template.php:774
+#: public/cart/cart_product_options_template.php:796
+#: public/cart/cart_product_options_template.php:822
+#: public/cart/cart_product_options_template.php:842
+#: public/cart/cart_product_options_template.php:863
+msgid "Option"
+msgstr ""
+
+#: public/cart/cart_product_options_template.php:138
+#: public/cart/cart_product_options_template.php:182
+#: public/cart/cart_product_options_template.php:217
+#: public/cart/cart_product_options_template.php:244
+#: public/cart/cart_product_options_template.php:271
+#: public/cart/cart_product_options_template.php:297
+#: public/cart/cart_product_options_template.php:323
+#: public/cart/cart_product_options_template.php:343
+#: public/cart/cart_product_options_template.php:366
+#: public/cart/cart_product_options_template.php:388
+#: public/cart/cart_product_options_template.php:416
+#: public/cart/cart_product_options_template.php:437
+#: public/cart/cart_product_options_template.php:462
+#: public/cart/cart_product_options_template.php:483
+#: public/cart/cart_product_options_template.php:500
+#: public/cart/cart_product_options_template.php:519
+#: public/cart/cart_product_options_template.php:538
+#: public/cart/cart_product_options_template.php:559
+#: public/cart/cart_product_options_template.php:585
+#: public/cart/cart_product_options_template.php:605
+#: public/cart/cart_product_options_template.php:623
+#: public/cart/cart_product_options_template.php:641
+#: public/cart/cart_product_options_template.php:664
+#: public/cart/cart_product_options_template.php:684
+#: public/cart/cart_product_options_template.php:703
+#: public/cart/cart_product_options_template.php:721
+#: public/cart/cart_product_options_template.php:739
+#: public/cart/cart_product_options_template.php:756
+#: public/cart/cart_product_options_template.php:777
+#: public/cart/cart_product_options_template.php:799
+#: public/cart/cart_product_options_template.php:825
+#: public/cart/cart_product_options_template.php:845
+#: public/cart/cart_product_options_template.php:866
+msgid "Label"
+msgstr ""
+
+#: public/cart/cart_product_options_template.php:139
+#: public/cart/cart_product_options_template.php:183
+#: public/cart/cart_product_options_template.php:218
+#: public/cart/cart_product_options_template.php:245
+#: public/cart/cart_product_options_template.php:272
+#: public/cart/cart_product_options_template.php:298
+#: public/cart/cart_product_options_template.php:324
+#: public/cart/cart_product_options_template.php:344
+#: public/cart/cart_product_options_template.php:367
+#: public/cart/cart_product_options_template.php:389
+#: public/cart/cart_product_options_template.php:417
+#: public/cart/cart_product_options_template.php:438
+#: public/cart/cart_product_options_template.php:463
+#: public/cart/cart_product_options_template.php:484
+#: public/cart/cart_product_options_template.php:501
+#: public/cart/cart_product_options_template.php:520
+#: public/cart/cart_product_options_template.php:539
+#: public/cart/cart_product_options_template.php:560
+#: public/cart/cart_product_options_template.php:586
+#: public/cart/cart_product_options_template.php:606
+#: public/cart/cart_product_options_template.php:624
+#: public/cart/cart_product_options_template.php:642
+#: public/cart/cart_product_options_template.php:665
+#: public/cart/cart_product_options_template.php:685
+#: public/cart/cart_product_options_template.php:704
+#: public/cart/cart_product_options_template.php:722
+#: public/cart/cart_product_options_template.php:740
+#: public/cart/cart_product_options_template.php:757
+#: public/cart/cart_product_options_template.php:778
+#: public/cart/cart_product_options_template.php:800
+#: public/cart/cart_product_options_template.php:826
+#: public/cart/cart_product_options_template.php:846
+#: public/cart/cart_product_options_template.php:867
+msgid "Content"
+msgstr ""
+
+#: public/cart/cart_product_options_template.php:140
+#: public/cart/cart_product_options_template.php:184
+#: public/cart/cart_product_options_template.php:219
+#: public/cart/cart_product_options_template.php:246
+#: public/cart/cart_product_options_template.php:273
+#: public/cart/cart_product_options_template.php:299
+#: public/cart/cart_product_options_template.php:325
+#: public/cart/cart_product_options_template.php:345
+#: public/cart/cart_product_options_template.php:368
+#: public/cart/cart_product_options_template.php:390
+#: public/cart/cart_product_options_template.php:418
+#: public/cart/cart_product_options_template.php:439
+#: public/cart/cart_product_options_template.php:464
+#: public/cart/cart_product_options_template.php:485
+#: public/cart/cart_product_options_template.php:502
+#: public/cart/cart_product_options_template.php:521
+#: public/cart/cart_product_options_template.php:540
+#: public/cart/cart_product_options_template.php:561
+#: public/cart/cart_product_options_template.php:587
+#: public/cart/cart_product_options_template.php:607
+#: public/cart/cart_product_options_template.php:625
+#: public/cart/cart_product_options_template.php:643
+#: public/cart/cart_product_options_template.php:666
+#: public/cart/cart_product_options_template.php:686
+#: public/cart/cart_product_options_template.php:705
+#: public/cart/cart_product_options_template.php:723
+#: public/cart/cart_product_options_template.php:741
+#: public/cart/cart_product_options_template.php:758
+#: public/cart/cart_product_options_template.php:779
+#: public/cart/cart_product_options_template.php:801
+#: public/cart/cart_product_options_template.php:827
+#: public/cart/cart_product_options_template.php:847
+#: public/cart/cart_product_options_template.php:868
+msgid "Cost"
+msgstr ""
+
+#: public/cart/cart_product_options_template.php:145
+#: public/cart/cart_product_options_template.php:151
+#: public/cart/cart_product_options_template.php:158
+#: public/cart/cart_product_options_template.php:164
+#: public/cart/cart_product_options_template.php:189
+#: public/cart/cart_product_options_template.php:195
+#: public/cart/cart_product_options_template.php:202
+#: public/cart/cart_product_options_template.php:224
+#: public/cart/cart_product_options_template.php:230
+#: public/cart/cart_product_options_template.php:251
+#: public/cart/cart_product_options_template.php:278
+#: public/cart/cart_product_options_template.php:304
+#: public/cart/cart_product_options_template.php:330
+#: public/cart/cart_product_options_template.php:350
+#: public/cart/cart_product_options_template.php:373
+#: public/cart/cart_product_options_template.php:395
+#: public/cart/cart_product_options_template.php:423
+#: public/cart/cart_product_options_template.php:444
+#: public/cart/cart_product_options_template.php:469
+#: public/cart/cart_product_options_template.php:490
+#: public/cart/cart_product_options_template.php:507
+#: public/cart/cart_product_options_template.php:526
+#: public/cart/cart_product_options_template.php:545
+#: public/cart/cart_product_options_template.php:566
+#: public/cart/cart_product_options_template.php:592
+#: public/cart/cart_product_options_template.php:612
+#: public/cart/cart_product_options_template.php:630
+#: public/cart/cart_product_options_template.php:648
+#: public/cart/cart_product_options_template.php:671
+#: public/cart/cart_product_options_template.php:691
+#: public/cart/cart_product_options_template.php:710
+#: public/cart/cart_product_options_template.php:728
+#: public/cart/cart_product_options_template.php:746
+#: public/cart/cart_product_options_template.php:763
+#: public/cart/cart_product_options_template.php:784
+#: public/cart/cart_product_options_template.php:806
+#: public/cart/cart_product_options_template.php:832
+#: public/cart/cart_product_options_template.php:852
+#: public/cart/cart_product_options_template.php:873
+msgid "free"
+msgstr ""
+
+#: public/class-calculated-custom-fields-public.php:305
+msgid "Initial price"
+msgstr ""
+
+#: public/class-calculated-custom-fields-public.php:307
+msgid "New price"
+msgstr ""
+
+#: public/class-calculated-custom-fields-public.php:395
+msgid ""
+"File size exceeds the "
+"maximum limit. Unallowed."
+msgstr ""
+
+#: public/class-calculated-custom-fields-public.php:426
+msgid ""
+"File was successfully "
+"uploaded."
+msgstr ""
+
+#: public/data/public-inline-script.php:13
+msgid ""
+"Fill the input with "
+"numbers"
+msgstr ""
+
+#: public/data/public-inline-script.php:14
+msgid ""
+"Fill the second input"
+msgstr ""
+
+#: public/data/public-inline-script.php:15
+msgid "Fill the first input"
+msgstr ""
+
+#: public/data/public-inline-script.php:16
+msgid "Fill the input"
+msgstr ""
+
+#: public/partials/calculated-custom-fields-public-display.php:50
+#: public/partials/calculated-custom-fields-public-display.php:54
+msgid "Quantity"
+msgstr ""
+
+#: public/partials/display_options/display_template.php:156
+msgid "Write your text"
+msgstr ""
+
+#: public/partials/display_options/display_template.php:195
+msgid "Select an option"
+msgstr ""
+
+#: public/partials/display_options/display_template.php:329
+msgid "Write a long text."
+msgstr ""
+
+#: public/partials/display_options/display_template.php:476
+msgid "Write a number"
+msgstr ""
+
+#: public/partials/display_options/display_template.php:645
+msgid "Email address"
+msgstr ""
+
+#: public/partials/display_options/display_template.php:793
+msgid ""
+"Choose a custom color"
+msgstr ""
+
+#: public/partials/display_options/display_template.php:852
+msgid ""
+"Write your first value"
+msgstr ""
+
+#: public/partials/display_options/display_template.php:887
+msgid ""
+"Write your second value"
+msgstr ""
+
+#: public/partials/display_options/display_template.php:997
+msgid "Upload a file"
+msgstr ""
+
+#: public/partials/display_options/display_template.php:1059
+msgid "Your phone number"
+msgstr ""

@@ -1,0 +1,38 @@
+/*
+ *
+ *  All of the CSS for your public-facing functionality should be
+ *  included in this file.
+ *
+ */
+
+/* Import of JQuery ui default CSS for radio buttons, checkbox buttons, buttons and select*/
+@import 'jquery-ui.css';
+
+/* CSS for the image switcher */
+@import 'cpm_img_swap.css';
+
+/* Product page option form*/
+.ccf_form {
+    margin-bottom: 10px;
+}
+
+/* Use for option cost output*/
+.cp_output {
+    display: none;
+}
+
+/* Upload loading spinner*/
+.loading_upload_spinner {
+    display: none;
+}
+
+.loading_upload_spinner i {
+    margin-left: 6px;
+    color: #767676;
+    font-size: 14px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+/* JQuery UI adjustment */
+.woocommerce-page .btn_containerRadio, .woocommerce-page .container_checkbox, .woocommerce-page .container_radio {margin:0;}

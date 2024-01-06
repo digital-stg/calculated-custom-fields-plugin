@@ -1,0 +1,117 @@
+/**
+*
+* Admin CSS
+*
+**/
+
+@import 'cpm-admin-tabs.css';
+
+/* admin loader icon*/
+
+.delete_admin_loader_icon, .admin_loader_icon, .save_loader_icon, .delete_loader_icon {display:none;}
+
+.delete_admin_loader_icon i, .admin_loader_icon i, .save_loader_icon i, .delete_loader_icon i {
+    margin-left: 6px;
+    color:#555;
+    font-size:14px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+/* btn */
+.cpm_admin_btn {
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 2.15384615;
+    min-height: 30px;
+    margin: 0;
+    padding: 0 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.cpm_admin_btn:hover {
+    background: #135e96;
+    border-color: #135e96;
+    color: #fff;
+}
+
+.cpm_admin_btn:active {
+    background: transparent;
+    border-color: #8c8f94;
+    color: #555;
+}
+
+#custom_produts_manager img {
+    width:300px;
+    height:300px;
+    object-fit: contain!important;
+}
+
+/* TOP DIV info & button */
+.top_info_div {
+    margin-top: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+/* Fade in top_info_div */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+} 
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+} 
+
+/* Icon & btn top div */
+.title_fa {
+    margin: 3px 6px 0px 3px;}
+
+#top_preview_btn {margin-top:-5px!important;}
+
+
+/* Field info div */
+.cpm_info_field {
+    float:left;
+    width: 50%;
+    padding: 2px 6px;
+}
+
+/* Admin help tip*/
+.woocommerce-help-tip.cpm {
+    margin-top:-5.5px!important;}
+
+/*upload mimes types ckbox */
+._check_all {
+    margin:10px 0 6px 0!important;
+}
+
+.op1_mimes_checkboxes:checked:before,
+.op2_mimes_checkboxes:checked:before {
+    background: rgb(105, 214, 72) !important;
+    /* content: ""!important;*/
+    border-radius: 3px;
+}
+
+.op1_mimes_checkboxes,
+.op2_mimes_checkboxes {
+    color: #fff !important;
+   background:rgb(233, 56, 56) !important;
+}
+
+.tabcontent input + .iris-picker {
+    margin:45px 0 0 0!important;
+}
+

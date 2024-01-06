@@ -1,0 +1,1328 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: calculated custom fields\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2024-01-02 13:58+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: NAS <contact@digital-stg.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-calculated-custom-fields-admin.php:94
+msgid "Calculated Custom Fields"
+msgstr "Calculated Custom Fields"
+
+#: admin/class-calculated-custom-fields-admin.php:155
+#: admin/class-calculated-custom-fields-admin.php:186 uninstall.php:53
+msgid "Free option"
+msgstr "Option gratuite"
+
+#: admin/class-calculated-custom-fields-admin.php:158
+msgid "Option cost : "
+msgstr "Coût option  : "
+
+#: admin/class-calculated-custom-fields-admin.php:161
+#: admin/class-calculated-custom-fields-admin.php:188 uninstall.php:55
+msgid "Customize"
+msgstr "Personnalisez"
+
+#: admin/class-calculated-custom-fields-admin.php:164
+#: admin/class-calculated-custom-fields-admin.php:189 uninstall.php:56
+msgid "Option required"
+msgstr "Option requise"
+
+#: admin/class-calculated-custom-fields-admin.php:187 uninstall.php:54
+msgid "Option cost"
+msgstr "Coût option"
+
+#: admin/partials/calculated-custom-fields-admin-display.php:27
+msgid ""
+"Use $user_value with numbers and basic mathematic operators : + - / * "
+"( ) . \n"
+"      $user_value is required and refers to the value given by the user on "
+"the product page.\n"
+"      Use also $second_user_value if you choose to add another input."
+msgstr ""
+"Utilisez $user_value avec les nombres et les opérateurs mathématiques de "
+"base: + - / * ().\n"
+"$user_value est obligatoire dans la formule et fait référence à la valeur "
+"saisie par l'utilisateur dans le champ de la page produit.\n"
+"Utilisez aussi $second_user_value si vous choisissez d'ajouter un second "
+"champ d'entrée nombre à cette option."
+
+#: admin/partials/calculated-custom-fields-admin-display.php:40
+msgid "Field 1"
+msgstr "Champ 1"
+
+#: admin/partials/calculated-custom-fields-admin-display.php:47
+msgid "Field 2"
+msgstr "Champ 2"
+
+#: admin/partials/calculated-custom-fields-admin-display.php:50
+msgid "Add more fields"
+msgstr "Ajouter des champs d'option"
+
+#: admin/partials/calculated-custom-fields-admin-display.php:51
+#: admin/partials/options-admin-tabs/settings_tab.php:16
+msgid "Settings"
+msgstr "Configuration"
+
+#: admin/partials/calculated-custom-fields-admin-display.php:52
+msgid "Data"
+msgstr "Data"
+
+#: admin/partials/calculated-custom-fields-admin-display.php:58
+#: admin/partials/calculated-custom-fields-admin-display.php:67
+msgid "Product regular price has to be set."
+msgstr "Le tarif régulier du produit doit être fixé."
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:47
+#: admin/partials/options-admin-tabs/link-tab.php:18
+msgid "View Product"
+msgstr "Voir le produit"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:50
+msgid "Text input displayed."
+msgstr "Champ d'entrée texte déployé."
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:52
+msgid "Select dropdown displayed."
+msgstr "Menu déroulant déployé."
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:54
+msgid "Checkbox input displayed."
+msgstr "Cases à cocher déployées."
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:56
+msgid "Text area input displayed."
+msgstr "Champ d'entrée texte long déployé."
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:58
+msgid "Radio input displayed."
+msgstr "Boutons radio déployés."
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:60
+msgid "Number input displayed."
+msgstr "Champ d'entrée nombre déployé."
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:62
+msgid "Image swap displayed."
+msgstr "Selecteur d'images déployé."
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:64
+msgid "Email input displayed."
+msgstr "Champ d'entrée e-mail déployé."
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:66
+msgid "Button swap displayed."
+msgstr "Boutons déployés."
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:68
+msgid "Color input displayed."
+msgstr "Champ d'entrée couleur déployé."
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:70
+msgid "Calculation input displayed."
+msgstr "Champ d'entrée calcul déployé."
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:72
+msgid "Url input displayed."
+msgstr "Champ d'entrée URL déployé."
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:74
+msgid "Upload input displayed."
+msgstr "Champ d'entrée téléchargement Ajax déployé."
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:76
+msgid "Phone input displayed."
+msgstr "Champ d'entrée téléphone déployé."
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:78
+msgid "No input currently displayed."
+msgstr "Pas d'option actuellement déployée."
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:84
+msgid "Option label"
+msgstr "Label option"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:87
+#: admin/partials/options-admin-tabs/link-tab.php:28
+msgid "Write your option label"
+msgstr "Ecrivez le nom de votre option"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:93
+msgid "Option type"
+msgstr "Type d'option"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:96
+#: admin/partials/options-admin-tabs/link-tab.php:40
+msgid "Select an option type"
+msgstr "Sélectionnez un type d'option"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:97
+#: admin/partials/options-admin-tabs/parts/upload.php:76
+msgid "Text"
+msgstr "Texte"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:98
+msgid "Select dropdown"
+msgstr "Menu déroulant"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:99
+msgid "Checkboxes"
+msgstr "Checkboxes"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:100
+msgid "Textarea"
+msgstr "Textarea"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:101
+msgid "Radio buttons"
+msgstr "Boutons radio"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:102
+msgid "Number"
+msgstr "Nombre"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:103
+msgid "Images"
+msgstr "Images"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:104
+msgid "Email"
+msgstr "Email"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:105
+msgid "Buttons"
+msgstr "Boutons"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:106
+msgid "Color"
+msgstr "Couleur"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:107
+msgid "Number calculation"
+msgstr "Formule de calcul"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:108
+msgid "Url"
+msgstr "URL"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:109
+msgid "Upload ajax"
+msgstr "Ajax Upload"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:110
+msgid "Phone"
+msgstr "Téléphone"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:117
+#: admin/partials/options-admin-tabs/link-tab.php:50
+msgid "Option description : "
+msgstr "Description de l'option : "
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:119
+#: admin/partials/options-admin-tabs/link-tab.php:52
+msgid "Input description"
+msgstr "Description de l'option"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:121
+msgid "Description of the option under the option label"
+msgstr "Description de l'option sous son label"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:126
+#: admin/partials/options-admin-tabs/link-tab.php:60
+msgid "Option help-tip : "
+msgstr "Helptip de l'option "
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:128
+#: admin/partials/options-admin-tabs/link-tab.php:62
+msgid "Input help-tip"
+msgstr "Aide-astuce de l'option"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:130
+msgid "Short text revealed by hovering on the option label"
+msgstr "Court texte qui se révèle en survolant le label de l'option"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:135
+msgid "Option placeholder : "
+msgstr "Texte de pré-saisie "
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:137
+msgid "Input placeholder"
+msgstr "Texte grisé de pré-saisie"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:142
+msgid "Option required :"
+msgstr "Option requise :"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:143
+msgid "Enable if option is required."
+msgstr "Cochez si l'option est requise pour ajout au panier."
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:149
+msgid "Option output :"
+msgstr "Option output :"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:150
+msgid "Enable to hide option extra-cost output."
+msgstr "Cochez pour masquez le coût de l'option après interaction."
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:188
+msgid "Save option"
+msgstr "Sauvegarde option"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:191
+msgid "Activate field"
+msgstr "Activer"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:194
+msgid "Delete option"
+msgstr "Supprimer option"
+
+#: admin/partials/options-admin-tabs/admin_tab_template.php:194
+msgid "Disable field"
+msgstr "Désactiver"
+
+#: admin/partials/options-admin-tabs/demo_tab.php:16
+msgid "You can import 14 sample products."
+msgstr "Vous pouvez importer 14 échantillons produit."
+
+#: admin/partials/options-admin-tabs/demo_tab.php:21
+msgid "Demo data : "
+msgstr "Demo data : "
+
+#: admin/partials/options-admin-tabs/demo_tab.php:21
+msgid "Import"
+msgstr "Importer"
+
+#: admin/partials/options-admin-tabs/link-tab.php:20
+msgid "No field limit with the pro version."
+msgstr "Pas de limite de champs avec la version pro."
+
+#: admin/partials/options-admin-tabs/link-tab.php:25
+msgid "Option label :"
+msgstr "Label option :"
+
+#: admin/partials/options-admin-tabs/link-tab.php:37
+msgid "Option type :"
+msgstr "Type d'option :"
+
+#: admin/partials/options-admin-tabs/link-tab.php:69
+msgid "Link :"
+msgstr "Lien :"
+
+#: admin/partials/options-admin-tabs/link-tab.php:69
+msgid ""
+"Check our <a target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\" href=\\"
+"\"https://digital-stg.com\\\">official website</a> for more information and "
+"documentation."
+msgstr ""
+"Consultez notre <a href=\\\"https://digital-stg.com\\\">site officiel</a> "
+"pour plus d'informations et pour la documentation."
+
+#: admin/partials/options-admin-tabs/parts/buttons.php:9
+msgid "Buttons number :"
+msgstr "Nombre de boutons :"
+
+#: admin/partials/options-admin-tabs/parts/buttons.php:11
+msgid "Number of displayed buttons"
+msgstr "Nombre de boutons à déployer"
+
+#: admin/partials/options-admin-tabs/parts/buttons.php:22
+#: admin/partials/options-admin-tabs/parts/checkboxes.php:8
+#: admin/partials/options-admin-tabs/parts/images.php:21
+#: admin/partials/options-admin-tabs/parts/radio.php:8
+#: admin/partials/options-admin-tabs/parts/select.php:15
+msgid "Option label 1"
+msgstr "Label option 1"
+
+#: admin/partials/options-admin-tabs/parts/buttons.php:25
+msgid "Button option label 1"
+msgstr "Label bouton option 1"
+
+#: admin/partials/options-admin-tabs/parts/buttons.php:30
+#: admin/partials/options-admin-tabs/parts/checkboxes.php:16
+#: admin/partials/options-admin-tabs/parts/images.php:30
+#: admin/partials/options-admin-tabs/parts/radio.php:16
+#: admin/partials/options-admin-tabs/parts/select.php:23
+msgid "Option extra-cost 1"
+msgstr "Coût de l'option 1"
+
+#: admin/partials/options-admin-tabs/parts/buttons.php:33
+msgid "Button option cost 1"
+msgstr "Coût de l'option bouton 1"
+
+#: admin/partials/options-admin-tabs/parts/buttons.php:42
+#: admin/partials/options-admin-tabs/parts/calculation.php:98
+#: admin/partials/options-admin-tabs/parts/images.php:53
+#: admin/partials/options-admin-tabs/parts/radio.php:28
+#: admin/partials/options-admin-tabs/parts/select.php:35
+msgid "Option label 2"
+msgstr "Label option 2"
+
+#: admin/partials/options-admin-tabs/parts/buttons.php:45
+msgid "Button option label 2"
+msgstr "Label bouton option 2"
+
+#: admin/partials/options-admin-tabs/parts/buttons.php:50
+#: admin/partials/options-admin-tabs/parts/images.php:61
+#: admin/partials/options-admin-tabs/parts/radio.php:36
+#: admin/partials/options-admin-tabs/parts/select.php:43
+msgid "Option extra-cost 2"
+msgstr "Coût de l'option 2"
+
+#: admin/partials/options-admin-tabs/parts/buttons.php:53
+msgid "Button option cost 2"
+msgstr "Coût de l'option bouton 2"
+
+#: admin/partials/options-admin-tabs/parts/buttons.php:62
+msgid "Option label 3"
+msgstr "Label option 3"
+
+#: admin/partials/options-admin-tabs/parts/buttons.php:65
+msgid "Button option label 3"
+msgstr "Label bouton option 3"
+
+#: admin/partials/options-admin-tabs/parts/buttons.php:70
+msgid "Option extra-cost 3"
+msgstr "Coût de l'option 3"
+
+#: admin/partials/options-admin-tabs/parts/buttons.php:73
+msgid "Button option cost 3"
+msgstr "Coût de l'option bouton 3"
+
+#: admin/partials/options-admin-tabs/parts/buttons.php:84
+msgid "Option label 4"
+msgstr "Label option 4"
+
+#: admin/partials/options-admin-tabs/parts/buttons.php:87
+msgid "Button option label 4"
+msgstr "Label bouton option 4"
+
+#: admin/partials/options-admin-tabs/parts/buttons.php:92
+msgid "Option extra-cost 4"
+msgstr "Coût de l'option 4"
+
+#: admin/partials/options-admin-tabs/parts/buttons.php:95
+msgid "Button option cost 4"
+msgstr "Coût de l'option bouton 4"
+
+#: admin/partials/options-admin-tabs/parts/buttons.php:110
+msgid "Option label 5"
+msgstr "Label option select 5"
+
+#: admin/partials/options-admin-tabs/parts/buttons.php:113
+msgid "Button option label 5"
+msgstr "Label bouton option 5"
+
+#: admin/partials/options-admin-tabs/parts/buttons.php:119
+msgid "Option extra-cost 5"
+msgstr "Coût de l'option 5"
+
+#: admin/partials/options-admin-tabs/parts/buttons.php:122
+msgid "Button option cost 5"
+msgstr "Coût de l'option bouton 5"
+
+#: admin/partials/options-admin-tabs/parts/buttons.php:135
+msgid "Option label 6"
+msgstr "Label option 6"
+
+#: admin/partials/options-admin-tabs/parts/buttons.php:138
+msgid "Button option label 6"
+msgstr "Label bouton option 6"
+
+#: admin/partials/options-admin-tabs/parts/buttons.php:144
+msgid "Option extra-cost 6"
+msgstr "Coût de l'option 6"
+
+#: admin/partials/options-admin-tabs/parts/buttons.php:147
+msgid "Button option cost 6"
+msgstr "Coût de l'option bouton 6"
+
+#: admin/partials/options-admin-tabs/parts/calculation.php:8
+msgid "Calcul formula"
+msgstr "Formule de calcul"
+
+#: admin/partials/options-admin-tabs/parts/calculation.php:16
+#: admin/partials/options-admin-tabs/parts/calculation.php:83
+#: admin/partials/options-admin-tabs/parts/upload.php:58
+msgid "Information :"
+msgstr "Information :"
+
+#: admin/partials/options-admin-tabs/parts/calculation.php:16
+msgid ""
+"is required in the calcul formula and refers to the value gived by the "
+"customer on the product page."
+msgstr ""
+"est requis dans la formule de calcul et fait référence à la valeur saisie "
+"par l'utilisateur sur la page produit."
+
+#: admin/partials/options-admin-tabs/parts/calculation.php:21
+#: admin/partials/options-admin-tabs/parts/calculation.php:88
+msgid "Example :"
+msgstr "Exemple :"
+
+#: admin/partials/options-admin-tabs/parts/calculation.php:23
+msgid ""
+"In this case, if user write 100, 20 will be dynamically added to price ((100 "
+"* 0.1) + 10). \n"
+"If product initial regular price was 30$, his new price is 50$."
+msgstr ""
+"Dans cet exemple, si l'utilisateur saisie 100, 20 sera dynamiquement ajouté "
+"au prix ((100 * 0.1) + 10).\n"
+"Si le prix initial du produit était 30 euros, son nouveau prix est 50 euros."
+
+#: admin/partials/options-admin-tabs/parts/calculation.php:31
+#: admin/partials/options-admin-tabs/parts/number.php:20
+msgid "Number min value : "
+msgstr "Valeur minimale : "
+
+#: admin/partials/options-admin-tabs/parts/calculation.php:42
+#: admin/partials/options-admin-tabs/parts/number.php:31
+msgid "Number max value : "
+msgstr "Valeur maximale "
+
+#: admin/partials/options-admin-tabs/parts/calculation.php:44
+msgid "no limit"
+msgstr "pas de limite"
+
+#: admin/partials/options-admin-tabs/parts/calculation.php:54
+#: admin/partials/options-admin-tabs/parts/number.php:43
+msgid "Number step value : "
+msgstr "Valeur intervalle "
+
+#: admin/partials/options-admin-tabs/parts/calculation.php:68
+msgid "Add new calcul input"
+msgstr "Ajouter un input"
+
+#: admin/partials/options-admin-tabs/parts/calculation.php:79
+msgid "Remove second input"
+msgstr "Supprimer le second input"
+
+#: admin/partials/options-admin-tabs/parts/calculation.php:83
+msgid "is now required in the calcul formula."
+msgstr "est désormais requis dans la formule de calcul."
+
+#: admin/partials/options-admin-tabs/parts/calculation.php:90
+msgid ""
+"In this case, if user write 3 and 4, 22 will be dynamically added to price "
+"((3 * 4) + 10).\n"
+"If product initial regular price was 30$, his new price is 52$."
+msgstr ""
+"Dans cet exemple, si l'utilisateur saisie 3 puis 4 dans le second input, 22 "
+"sera dynamiquement ajouté au prix ((3*4)+10).\n"
+"Si le prix initial du produit était 30 euros, son nouveau prix est 52 euros."
+
+#: admin/partials/options-admin-tabs/parts/calculation.php:106
+msgid "Input description 2 :"
+msgstr "Description input 2 :"
+
+#: admin/partials/options-admin-tabs/parts/calculation.php:108
+msgid "Second input description"
+msgstr "Descripion du second input"
+
+#: admin/partials/options-admin-tabs/parts/calculation.php:113
+msgid "Description helptip 2 :"
+msgstr "Description helptip 2 :"
+
+#: admin/partials/options-admin-tabs/parts/calculation.php:115
+msgid "Second input helptip"
+msgstr "Aide-astuce du second inout"
+
+#: admin/partials/options-admin-tabs/parts/calculation.php:120
+msgid "Input placeholder 2 :"
+msgstr "Placeholder du second input :"
+
+#: admin/partials/options-admin-tabs/parts/calculation.php:122
+msgid "Second input placeholder"
+msgstr "Aide-astuce du second inout"
+
+#: admin/partials/options-admin-tabs/parts/checkboxes.php:11
+msgid "Checkbox option label 1"
+msgstr "Label checkbox option 1"
+
+#: admin/partials/options-admin-tabs/parts/checkboxes.php:19
+msgid "Checkbox option cost 1"
+msgstr "Coût checkbox option 1"
+
+#: admin/partials/options-admin-tabs/parts/checkboxes.php:31
+#: admin/partials/options-admin-tabs/parts/checkboxes.php:67
+#: admin/partials/options-admin-tabs/parts/checkboxes.php:97
+msgid "Add new checkbox"
+msgstr "Ajouter une checkbox"
+
+#: admin/partials/options-admin-tabs/parts/checkboxes.php:41
+msgid "Remove checkbox 2"
+msgstr "Supprimer checkbox 2"
+
+#: admin/partials/options-admin-tabs/parts/checkboxes.php:47
+msgid "Option label 2 :"
+msgstr "Label option 2 :"
+
+#: admin/partials/options-admin-tabs/parts/checkboxes.php:50
+msgid "Checkbox option label 2"
+msgstr "Label checkbox option 2"
+
+#: admin/partials/options-admin-tabs/parts/checkboxes.php:56
+msgid "Option extra-cost 2 :"
+msgstr "Coût de l'option 2 :"
+
+#: admin/partials/options-admin-tabs/parts/checkboxes.php:59
+msgid "Checkbox option cost 2"
+msgstr "Coût checkbox option 2"
+
+#: admin/partials/options-admin-tabs/parts/checkboxes.php:73
+msgid "Remove checkbox 3"
+msgstr "Supprimer checkbox 3"
+
+#: admin/partials/options-admin-tabs/parts/checkboxes.php:78
+#: admin/partials/options-admin-tabs/parts/images.php:100
+#: admin/partials/options-admin-tabs/parts/radio.php:66
+#: admin/partials/options-admin-tabs/parts/select.php:73
+msgid "Option label 3 :"
+msgstr "Label option 3 :"
+
+#: admin/partials/options-admin-tabs/parts/checkboxes.php:81
+msgid "Checkbox option label 3"
+msgstr "Checkbox option label 3"
+
+#: admin/partials/options-admin-tabs/parts/checkboxes.php:86
+#: admin/partials/options-admin-tabs/parts/images.php:108
+#: admin/partials/options-admin-tabs/parts/radio.php:74
+#: admin/partials/options-admin-tabs/parts/select.php:81
+msgid "Option extra-cost 3 :"
+msgstr "Coût de l'option 3 :"
+
+#: admin/partials/options-admin-tabs/parts/checkboxes.php:89
+msgid "Checkbox option cost 3"
+msgstr "Coût checkbox option 3"
+
+#: admin/partials/options-admin-tabs/parts/checkboxes.php:103
+msgid "Remove checkbox 4"
+msgstr "Supprimer checkbox 4"
+
+#: admin/partials/options-admin-tabs/parts/checkboxes.php:108
+#: admin/partials/options-admin-tabs/parts/images.php:146
+#: admin/partials/options-admin-tabs/parts/radio.php:96
+#: admin/partials/options-admin-tabs/parts/select.php:104
+msgid "Option label 4 :"
+msgstr "Label option 4 :"
+
+#: admin/partials/options-admin-tabs/parts/checkboxes.php:111
+msgid "Checkbox option label 4"
+msgstr "Checkbox option label 4"
+
+#: admin/partials/options-admin-tabs/parts/checkboxes.php:116
+#: admin/partials/options-admin-tabs/parts/images.php:154
+#: admin/partials/options-admin-tabs/parts/radio.php:104
+#: admin/partials/options-admin-tabs/parts/select.php:112
+msgid "Option extra-cost 4 :"
+msgstr "Coût de l'option 4 :"
+
+#: admin/partials/options-admin-tabs/parts/checkboxes.php:119
+msgid "Checkbox option cost 4"
+msgstr "Coût checkbox option 4"
+
+#: admin/partials/options-admin-tabs/parts/color.php:7
+#: admin/partials/options-admin-tabs/parts/email.php:8
+#: admin/partials/options-admin-tabs/parts/number.php:8
+#: admin/partials/options-admin-tabs/parts/phone.php:8
+#: admin/partials/options-admin-tabs/parts/text.php:8
+#: admin/partials/options-admin-tabs/parts/textarea.php:7
+#: admin/partials/options-admin-tabs/parts/upload.php:8
+#: admin/partials/options-admin-tabs/parts/url.php:8
+msgid "Option extra-cost"
+msgstr "Coût de l'option"
+
+#: admin/partials/options-admin-tabs/parts/color.php:10
+msgid "Color option extra-cost"
+msgstr "Coût de l'option couleur"
+
+#: admin/partials/options-admin-tabs/parts/email.php:11
+msgid "Email extra-cost"
+msgstr "Coût de l'option e-mail"
+
+#: admin/partials/options-admin-tabs/parts/email.php:20
+msgid "Email max length : "
+msgstr "Taille maximale de l'e-mail "
+
+#: admin/partials/options-admin-tabs/parts/images.php:9
+#: admin/partials/options-admin-tabs/parts/images.php:14
+#: admin/partials/options-admin-tabs/parts/images.php:43
+#: admin/partials/options-admin-tabs/parts/images.php:47
+#: admin/partials/options-admin-tabs/parts/images.php:90
+#: admin/partials/options-admin-tabs/parts/images.php:94
+#: admin/partials/options-admin-tabs/parts/images.php:136
+#: admin/partials/options-admin-tabs/parts/images.php:140
+msgid "Remove image"
+msgstr "Supprimer image"
+
+#: admin/partials/options-admin-tabs/parts/images.php:13
+#: admin/partials/options-admin-tabs/parts/images.php:46
+#: admin/partials/options-admin-tabs/parts/images.php:93
+#: admin/partials/options-admin-tabs/parts/images.php:139
+msgid "Upload image"
+msgstr "Télécharger image"
+
+#: admin/partials/options-admin-tabs/parts/images.php:24
+msgid "Image option label 1"
+msgstr "Label image option 1"
+
+#: admin/partials/options-admin-tabs/parts/images.php:33
+msgid "Image option cost 1"
+msgstr "Coût de l'option image 1"
+
+#: admin/partials/options-admin-tabs/parts/images.php:56
+msgid "Image option label 2"
+msgstr "Label image option 2"
+
+#: admin/partials/options-admin-tabs/parts/images.php:64
+msgid "Image option cost 2 :"
+msgstr "Coût de l'option image 2 :"
+
+#: admin/partials/options-admin-tabs/parts/images.php:76
+#: admin/partials/options-admin-tabs/parts/images.php:122
+msgid "Add new image"
+msgstr "Ajouter nouvelle image"
+
+#: admin/partials/options-admin-tabs/parts/images.php:85
+msgid "Remove Image 3"
+msgstr "Supprimer image 3"
+
+#: admin/partials/options-admin-tabs/parts/images.php:103
+msgid "Image option label 3"
+msgstr "Label image option 3"
+
+#: admin/partials/options-admin-tabs/parts/images.php:110
+msgid "Image option cost 3"
+msgstr "Coût de l'option image 3"
+
+#: admin/partials/options-admin-tabs/parts/images.php:131
+msgid "Remove Image 4"
+msgstr "Supprimer image 4"
+
+#: admin/partials/options-admin-tabs/parts/images.php:149
+msgid "Image option label 4"
+msgstr "Label image option 4"
+
+#: admin/partials/options-admin-tabs/parts/images.php:157
+msgid "Image option cost 4"
+msgstr "Coût de l'option image 4"
+
+#: admin/partials/options-admin-tabs/parts/number.php:11
+msgid "Number extra-cost"
+msgstr "Coût de l'option nombre"
+
+#: admin/partials/options-admin-tabs/parts/phone.php:10
+msgid "Phone option extra-cost"
+msgstr "Coût de l'option téléphone"
+
+#: admin/partials/options-admin-tabs/parts/phone.php:21
+msgid "Phone min length : "
+msgstr "Taille minimale numéro : "
+
+#: admin/partials/options-admin-tabs/parts/phone.php:32
+msgid "Phone max length : "
+msgstr "Taille maximale numéro : "
+
+#: admin/partials/options-admin-tabs/parts/phone.php:62
+#: admin/partials/options-admin-tabs/parts/phone.php:71
+msgid "Dialling code :"
+msgstr "Code du pays :"
+
+#: admin/partials/options-admin-tabs/parts/phone.php:64
+msgid "Select default country"
+msgstr "Sélectionnez un pays par défaut"
+
+#: admin/partials/options-admin-tabs/parts/radio.php:11
+msgid "Radio option label 1"
+msgstr "Label radio option 1"
+
+#: admin/partials/options-admin-tabs/parts/radio.php:19
+msgid "Radio option cost 1"
+msgstr "Coût option radio 1"
+
+#: admin/partials/options-admin-tabs/parts/radio.php:31
+msgid "Radio option label 2"
+msgstr "Label radio option 2"
+
+#: admin/partials/options-admin-tabs/parts/radio.php:39
+msgid "Radio option cost 2"
+msgstr "Coût option radio 2"
+
+#: admin/partials/options-admin-tabs/parts/radio.php:51
+#: admin/partials/options-admin-tabs/parts/radio.php:85
+msgid "Add new radio"
+msgstr "Ajouter bouton radio"
+
+#: admin/partials/options-admin-tabs/parts/radio.php:61
+msgid "Remove radio 3"
+msgstr "Supprimer radio 3"
+
+#: admin/partials/options-admin-tabs/parts/radio.php:69
+msgid "Radio option label 3"
+msgstr "Label radio option 3"
+
+#: admin/partials/options-admin-tabs/parts/radio.php:77
+msgid "Radio option cost 3"
+msgstr "Coût option radio 3"
+
+#: admin/partials/options-admin-tabs/parts/radio.php:91
+msgid "Remove radio "
+msgstr "Supprimer bouton radio "
+
+#: admin/partials/options-admin-tabs/parts/radio.php:99
+msgid "Radio option label 4"
+msgstr "Label radio option 4"
+
+#: admin/partials/options-admin-tabs/parts/radio.php:107
+msgid "Radio option cost 4"
+msgstr "Coût option radio 4"
+
+#: admin/partials/options-admin-tabs/parts/select.php:8
+msgid "Default text :"
+msgstr "Texte par défaut :"
+
+#: admin/partials/options-admin-tabs/parts/select.php:10
+msgid "Write your select default text"
+msgstr "Ecrivez le texte par défaut"
+
+#: admin/partials/options-admin-tabs/parts/select.php:18
+msgid "Select option label 1"
+msgstr "Label select option 1"
+
+#: admin/partials/options-admin-tabs/parts/select.php:26
+msgid "Select option cost 1"
+msgstr "Coût de l'option select 1"
+
+#: admin/partials/options-admin-tabs/parts/select.php:38
+msgid "Select option label 2"
+msgstr "Label select option 2"
+
+#: admin/partials/options-admin-tabs/parts/select.php:46
+msgid "Select option cost 2"
+msgstr "Coût de l'option select 2"
+
+#: admin/partials/options-admin-tabs/parts/select.php:58
+#: admin/partials/options-admin-tabs/parts/select.php:93
+#: admin/partials/options-admin-tabs/parts/select.php:123
+#: admin/partials/options-admin-tabs/parts/select.php:153
+msgid "Add sub option"
+msgstr "Ajouter sous-option"
+
+#: admin/partials/options-admin-tabs/parts/select.php:68
+msgid "Remove select 3"
+msgstr "Supprimer select 3"
+
+#: admin/partials/options-admin-tabs/parts/select.php:76
+msgid "Select option label 3"
+msgstr "Label select option 3"
+
+#: admin/partials/options-admin-tabs/parts/select.php:84
+msgid "Select option cost 3"
+msgstr "Coût de l'option select 3"
+
+#: admin/partials/options-admin-tabs/parts/select.php:99
+msgid "Remove select 4"
+msgstr "Supprimer select 4"
+
+#: admin/partials/options-admin-tabs/parts/select.php:107
+msgid "Select option label 4"
+msgstr "Label select option 4"
+
+#: admin/partials/options-admin-tabs/parts/select.php:115
+msgid "Select option cost 4"
+msgstr "Coût de l'option select 4"
+
+#: admin/partials/options-admin-tabs/parts/select.php:129
+msgid "Remove select 5"
+msgstr "Supprimer select 5"
+
+#: admin/partials/options-admin-tabs/parts/select.php:134
+msgid "Option label 5 :"
+msgstr "Label option select 5 :"
+
+#: admin/partials/options-admin-tabs/parts/select.php:137
+msgid "Select option label 5"
+msgstr "Label select option 5"
+
+#: admin/partials/options-admin-tabs/parts/select.php:142
+msgid "Option extra-cost 5 :"
+msgstr "Coût de l'option 5 :"
+
+#: admin/partials/options-admin-tabs/parts/select.php:145
+msgid "Select option cost 5"
+msgstr "Coût de l'option select 5"
+
+#: admin/partials/options-admin-tabs/parts/select.php:159
+msgid "Remove select 6"
+msgstr "Supprimer select 6"
+
+#: admin/partials/options-admin-tabs/parts/select.php:164
+msgid "Option label 6 :"
+msgstr "Label option 6 :"
+
+#: admin/partials/options-admin-tabs/parts/select.php:167
+msgid "Select option label 6"
+msgstr "Label select option 6"
+
+#: admin/partials/options-admin-tabs/parts/select.php:172
+msgid "Option extra-cost 6 :"
+msgstr "Coût de l'option 6 :"
+
+#: admin/partials/options-admin-tabs/parts/select.php:175
+msgid "Select option cost 6"
+msgstr "Coût de l'option select 6"
+
+#: admin/partials/options-admin-tabs/parts/text.php:11
+msgid "Text extra-cost"
+msgstr "Coût de l'option texte"
+
+#: admin/partials/options-admin-tabs/parts/text.php:20
+msgid "Text min length :"
+msgstr "Taille minimale du texte :"
+
+#: admin/partials/options-admin-tabs/parts/text.php:31
+msgid "Text max length :"
+msgstr "Taille maximale du texte :"
+
+#: admin/partials/options-admin-tabs/parts/text.php:42
+msgid "Only letters :"
+msgstr "Lettres uniquement :"
+
+#: admin/partials/options-admin-tabs/parts/textarea.php:10
+msgid "Textarea extra-cost"
+msgstr "Coût de l'option textarea"
+
+#: admin/partials/options-admin-tabs/parts/textarea.php:19
+msgid "Textarea max length : "
+msgstr "Taille maximale du texte : "
+
+#: admin/partials/options-admin-tabs/parts/upload.php:10
+msgid "Upload option extra-cost"
+msgstr "Coût de l'option téléchargement"
+
+#: admin/partials/options-admin-tabs/parts/upload.php:20
+msgid "Upload max size : "
+msgstr "Taille maximale téléchargement : "
+
+#: admin/partials/options-admin-tabs/parts/upload.php:34
+msgid "Set file types restriction"
+msgstr "Configurer la restriction de fichiers"
+
+#: admin/partials/options-admin-tabs/parts/upload.php:45
+msgid "Close"
+msgstr "Fermer"
+
+#: admin/partials/options-admin-tabs/parts/upload.php:51
+msgid "Toggle all mimes types"
+msgstr "Cocher/Décocher les types MIMES"
+
+#: admin/partials/options-admin-tabs/parts/upload.php:60
+msgid ""
+"Check / uncheck to allow / disallow corresponding file type and restrict "
+"upload. By default, these 100 file mime types are disallowed. At least one "
+"type allowed is required."
+msgstr ""
+"Cochez / Décochez pour autoriser / restreindre le type de fichiers à "
+"télécharger. Par défaut, 100 types de fichiers MIMES sont désactivés. Au "
+"moins un type autorisé est requis."
+
+#: admin/partials/options-admin-tabs/parts/upload.php:70
+msgid "Image"
+msgstr "Image"
+
+#: admin/partials/options-admin-tabs/parts/upload.php:73
+msgid "Video"
+msgstr "Video"
+
+#: admin/partials/options-admin-tabs/parts/upload.php:79
+msgid "Audio"
+msgstr "Audio"
+
+#: admin/partials/options-admin-tabs/parts/upload.php:82
+msgid "Application"
+msgstr "Application"
+
+#: admin/partials/options-admin-tabs/parts/upload.php:91
+msgid " : "
+msgstr " : "
+
+#: admin/partials/options-admin-tabs/parts/url.php:11
+msgid "Url extra-cost"
+msgstr "Coût de l'option URL"
+
+#: admin/partials/options-admin-tabs/parts/url.php:20
+msgid "Url min length : "
+msgstr "Taille minimale URL : "
+
+#: admin/partials/options-admin-tabs/parts/url.php:31
+msgid "Url max length : "
+msgstr "Taille maximale URL : "
+
+#: admin/partials/options-admin-tabs/parts/url.php:42
+msgid "Url pattern."
+msgstr "Pattern URL."
+
+#: admin/partials/options-admin-tabs/settings_tab.php:27
+msgid "Fields number : "
+msgstr "Nombre de champs : "
+
+#: admin/partials/options-admin-tabs/settings_tab.php:33
+msgid "Only pro version. No maximum limit. Mininum is 2."
+msgstr "Version pro uniquement. Pas de maximum. Minimum est de 2."
+
+#: admin/partials/options-admin-tabs/settings_tab.php:42
+msgid "Free option text : "
+msgstr "Texte de l'option gratuite : "
+
+#: admin/partials/options-admin-tabs/settings_tab.php:46
+msgid "Text that appears when option is free."
+msgstr "Texte qui apparaît si l'option est gratuite."
+
+#: admin/partials/options-admin-tabs/settings_tab.php:51
+msgid "Extra-cost option text : "
+msgstr "Texte de l'option payante : "
+
+#: admin/partials/options-admin-tabs/settings_tab.php:55
+msgid "Text that appears before option price, if option output is enable."
+msgstr ""
+"Texte qui apparaît sous le prix de l'option, si l'output de l'option est "
+"actif."
+
+#: admin/partials/options-admin-tabs/settings_tab.php:60
+msgid "Add to cart text : "
+msgstr "Texte bouton ajout au panier "
+
+#: admin/partials/options-admin-tabs/settings_tab.php:64
+msgid ""
+"Text that replaces \"add to cart\" on the shop page product button (if at "
+"least one option is activated)."
+msgstr ""
+"Texte qui remplace \"ajouter au panier\" sur la page boutique, si au moins "
+"une option est active."
+
+#: admin/partials/options-admin-tabs/settings_tab.php:69
+msgid "Required option text : "
+msgstr "Texte de l'option requise : "
+
+#: admin/partials/options-admin-tabs/settings_tab.php:73
+msgid ""
+"Text that appears if option is required and unfilled (select, buttons, "
+"images, radio, color, upload, checkboxes)"
+msgstr ""
+"Texte qui apparait si l'option est requise et non sélectionnée lors de "
+"l'ajout panier (select, buttons, images, radio, color, upload, checkboxes)"
+
+#: admin/partials/options-admin-tabs/settings_tab.php:81
+msgid "Save"
+msgstr "Sauvergarder"
+
+#: admin/partials/options-admin-tabs/settings_tab.php:81
+msgid "Save all settings"
+msgstr "Sauvegarder"
+
+#: admin/partials/options-admin-tabs/settings_tab.php:84
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: admin/partials/options-admin-tabs/settings_tab.php:84
+msgid "Reset all settings"
+msgstr "Réinitialiser"
+
+#: includes/class-calculated-custom-fields-activator.php:23
+msgid "WooCommerce is required"
+msgstr "WooCommerce est requis"
+
+#: includes/class-calculated-custom-fields-activator.php:23
+msgid "CCF Plugin activation cancelled"
+msgstr "Activation du plugin CCF annulée"
+
+#: includes/class-calculated-custom-fields-activator.php:23
+msgid "Go back to plugins"
+msgstr "Retour à la page des plugins"
+
+#: public/class-calculated-custom-fields-public.php:270
+msgid "File size exceeds the maximum limit. Unallowed."
+msgstr "Le fichier dépasse la taille maximale autorisée."
+
+#: public/class-calculated-custom-fields-public.php:286
+msgid "File was successfully uploaded."
+msgstr "Le fichier a été téléchargé avec succès."
+
+#: public/data/public-inline-script.php:12
+msgid "Fill the input with numbers"
+msgstr "Saisissez des nombres"
+
+#: public/data/public-inline-script.php:13
+msgid "Fill the second input"
+msgstr "Saississez une seconde valeur"
+
+#: public/data/public-inline-script.php:14
+msgid "Fill the first input"
+msgstr "Saisissez une première valeur"
+
+#: public/data/public-inline-script.php:15
+msgid "Fill the input"
+msgstr "Remplissez le champ"
+
+#: public/partials/calculated-custom-fields-public-display.php:39
+#: public/partials/calculated-custom-fields-public-display.php:41
+msgid "Quantity"
+msgstr "Quantité"
+
+#: public/partials/display_options/parts/color.php:30
+msgid "Choose a custom color"
+msgstr "Choisissez une couleur"
+
+#: public/partials/display_options/parts/email.php:33
+msgid "Email address"
+msgstr "Adresse E-mail"
+
+#: public/partials/display_options/parts/number.php:38
+msgid "Write a number"
+msgstr "Ecrivez un nombre"
+
+#: public/partials/display_options/parts/phone.php:39
+msgid "Your phone number"
+msgstr "Votre numéro de téléphone"
+
+#: public/partials/display_options/parts/select.php:31
+msgid "Select an option"
+msgstr "Choisissez une option"
+
+#: public/partials/display_options/parts/text.php:35
+msgid "Write your text"
+msgstr "Ecrivez votre texte"
+
+#: public/partials/display_options/parts/textarea.php:35
+msgid "Write a long text."
+msgstr "Ecrivez un texte long."
+
+#: public/partials/display_options/parts/upload.php:31
+msgid "Upload a file"
+msgstr "Télécharger un fichier"
+
+#~ msgid "Demo"
+#~ msgstr "Demo"
+
+#~ msgid "Number min value: "
+#~ msgstr "Valeur minimale "
+
+#~ msgid "Input label 2 :"
+#~ msgstr "Label input 2 :"
+
+#~ msgid "You can add until seven additional fields with CCF Pro."
+#~ msgstr ""
+#~ "Vous pouvez ajouter jusqu'à 7 champs d'options avec la version de CCF pro."
+
+#~ msgid "Total price"
+#~ msgstr "Prix total"
+
+#~ msgid "Total cost incl."
+#~ msgstr "Total coûts inclus"
+
+#~ msgid "Total option"
+#~ msgstr "Total option"
+
+#~ msgid "Total cost"
+#~ msgstr "Coût total"
+
+#~ msgid "Enable to allow only letters and disallowed numbers."
+#~ msgstr "Cochez pour n'activer que les lettres et restreindre les nombres."
+
+#~ msgid "Url link option cost"
+#~ msgstr "Coût de l'option URL : "
+
+#~ msgid "Save and display"
+#~ msgstr "Sauvegarder et déployer"
+
+#~ msgid "Remove"
+#~ msgstr "Supprimer"
+
+#~ msgid "General settings"
+#~ msgstr "Configuration générale"
+
+#~ msgid "Calculation type"
+#~ msgstr "Type de calcul "
+
+#~ msgid "Quantity related :"
+#~ msgstr "Corrélé à la quantité : "
+
+#~ msgid "Option costs fluctuate with quantity."
+#~ msgstr "Les coûts d'options fluctuent en fonction de la quantité produit. "
+
+#~ msgid "Enabled :"
+#~ msgstr "Activé : "
+
+#~ msgid "Option cost are added to the product price and are quantity related."
+#~ msgstr ""
+#~ "Les coûts d'options sont ajoutés au prix produit et sont corrélés à la "
+#~ "quantité."
+
+#~ msgid ""
+#~ "1 - Cast page product accordion last header default title : \"Total "
+#~ "price\""
+#~ msgstr ""
+#~ "1 - Titre de la dernière en-tête de l'accordéon produit sur la page "
+#~ "panier : \"Total price\""
+
+#~ msgid "2 - New cart page summary default text : \"Total cost incl\""
+#~ msgstr "2 - Nouveau texte dans le total panier : \"Total cost incl\""
+
+#~ msgid "Option cost are added to the total but are not quantity related."
+#~ msgstr ""
+#~ "Les coûts d'options sont ajoutés au total et ne sont plus corrélés à la "
+#~ "quantité produit."
+
+#~ msgid ""
+#~ "1 - Cast page product accordion last header default title : \"Total "
+#~ "option\""
+#~ msgstr ""
+#~ "1 - Titre de la dernière en-tête de l'accordéon produit sur la page "
+#~ "panier : \"Total option\""
+
+#~ msgid "2 - New cart page summary default text : \"Total cost\""
+#~ msgstr "2 - Nouveau texte dans le total panier : \"Total cost\""
+
+#~ msgid ""
+#~ "You can modify the text of these 2 headers in the Cart page section below."
+#~ msgstr ""
+#~ "Vous pouvez modifier ces 2 textes dans la section Panier ci-dessous."
+
+#~ msgid "Cart page"
+#~ msgstr "Panier"
+
+#~ msgid "Accordion header text : "
+#~ msgstr "Texte de l'en-tête de l'accordéon produit : "
+
+#~ msgid "Cart summary text : "
+#~ msgstr "Texte du total panier : "
+
+#~ msgid "Product page"
+#~ msgstr "Page produit "
+
+#~ msgid "Shop page"
+#~ msgstr "Page boutique "
+
+#~ msgid "Option"
+#~ msgstr "Option"
+
+#~ msgid "Label"
+#~ msgstr "Label"
+
+#~ msgid "Content"
+#~ msgstr "Contenu"
+
+#~ msgid "Cost"
+#~ msgstr "Coût"
+
+#~ msgid "free"
+#~ msgstr "gratuit"
+
+#~ msgid "Initial price"
+#~ msgstr "Prix initial"
+
+#~ msgid "New price"
+#~ msgstr "Nouveau prix "
+
+#~ msgid "Write your first value"
+#~ msgstr "Première valeur"
+
+#~ msgid "Write your second value"
+#~ msgstr "Seconde valeur"
+
+#~ msgid "Displayed above option input"
+#~ msgstr "Déployé au dessus de l'option"
+
+#~ msgid "Displayed under option name. Leave blank if you dont need it."
+#~ msgstr "Déployé sous le nom de l'option. Laisser blanc si non requis."
+
+#~ msgid "Displayed beside option name. Leave blank if you dont need it."
+#~ msgstr "Déployé à côté du nom de l'option. Laisser blanc si non requis."
+
+#~ msgid ""
+#~ "By default, upload max size depends on the settings of your web hosting "
+#~ "provider. You can also restrict it here by giving a value in Megabytes "
+#~ "(Default PHP upload max size value is usually around 2M)."
+#~ msgstr ""
+#~ "Par défaut, la taille maximale de téléchargement dépends de la "
+#~ "configuration de votre hébergement web. Vous pouvez également la "
+#~ "restreindre ici en donnant une valeur en Mo."
+
+#~ msgid ""
+#~ "If option output is enabled, this text will appear after user interaction "
+#~ "when the option is free."
+#~ msgstr ""
+#~ "Si l'affichage du coût de l'option est actif, ce texte apparaîtra après "
+#~ "l'interaction utilisateur lorsque l'option est gratuite. "
+
+#~ msgid ""
+#~ "If option output is enabled, this text will appear after user interaction "
+#~ "just before the custom option price."
+#~ msgstr ""
+#~ "Si l'affichage du coût de l'option est actif, ce texte apparaîtra après "
+#~ "l'interaction utilisateur lorsque l'option est payante. "
+
+#~ msgid ""
+#~ "Product page & cart : if enabled, option cost will be correlated with the "
+#~ "product quantity. If disabled, option cost will be added only once to the "
+#~ "cart total."
+#~ msgstr ""
+#~ "Si cette case est cochée, le coût de l'option sera corrélé à la quantité "
+#~ "produit. Si décochée, le coût de l'option ne sera ajouté qu'une fois au "
+#~ "total. "
+
+#~ msgid "Last product accordion header text."
+#~ msgstr "Texte de la dernière en-tête accordéon produit"
+
+#~ msgid "Cart total text."
+#~ msgstr "Texte du panier total"
+
+#~ msgid ""
+#~ "if an option has been set, the add to cart btn of shop page becomes a "
+#~ "link to the product with a custom text."
+#~ msgstr "Pour chaque produit, si une option a été activée, "
+
+#~ msgid "Field 3"
+#~ msgstr "Champ 3"
+
+#~ msgid "Field 4"
+#~ msgstr "Champ 4"
+
+#~ msgid "Field 5"
+#~ msgstr "Champ 5"
+
+#~ msgid "Field 6"
+#~ msgstr "Champ 6"
+
+#~ msgid "Field 7"
+#~ msgstr "Champ 7"
+
+#~ msgid "Available only in pro version"
+#~ msgstr "Disponible avec la version professionnelle"
+
+#~ msgid "Add new select"
+#~ msgstr "Ajouter sous-option"
+
+#~ msgid "Select"
+#~ msgstr "Select"
+
+#~ msgid "Radio"
+#~ msgstr "Boutons radio"

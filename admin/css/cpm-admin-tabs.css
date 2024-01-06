@@ -1,0 +1,52 @@
+/* ADMIN TAB CSS */
+
+.tab {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    background-color: #fafafa;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+ 
+}
+
+/* Style the buttons inside the tab */
+.tab a {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.3s;
+    line-height: 20px !important;
+}
+
+.tab a i {
+    margin-right: 2px;
+}
+
+
+.tab a:hover {
+    background-color: #eee;
+}
+
+/* Create an active/current tablink class */
+.tab a.active {
+    background-color: #eee;
+    text-decoration: none;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+   /* border: 1px solid #ccc;*/
+   border: none;
+}
+
+
+
+.disable_output_field span {
+    margin-top: -25px;
+}
